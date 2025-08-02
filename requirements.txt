@@ -1,0 +1,17 @@
+# ===== Core =====
+torch            # will pull the universal wheel with Apple-silicon (MPS) support
+transformers
+sentencepiece
+accelerate
+sentence-transformers
+hnswlib          # ANN index, Apple-silicon wheels available
+
+# ===== Numeric & utils =====
+numpy
+pandas
+scipy
+scikit-learn
+tqdm
+rich
+python-dotenv
+tabulate
